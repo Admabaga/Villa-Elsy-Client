@@ -1,0 +1,103 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2c3e50;
+    /* azul oscuro sobrio */
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-logo {
+  text-decoration: none;       
+  color: #e0f2f1;                  
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.navbar-logo:hover {
+  color: #e0f2f1;                 
+}
+
+.menu-icon {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #e0f2f1;
+}
+
+/* Menú en escritorio */
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #e0f2f1;
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.navbar-links li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #a5f3fc;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.3s;
+}
+
+.navbar-links li a:hover::after {
+    width: 100%;
+}
+
+.navbar-links li a:hover {
+    color: #a5f3fc;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+    .navbar-links {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        background-color: #2c3e50;
+        flex-direction: column;
+        align-items: center;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease;
+    }
+
+    .navbar-links.active {
+        max-height: 300px;
+        padding-bottom: 1rem;
+    }
+
+    .navbar-links li {
+        margin: 1rem 0;
+    }
+}
