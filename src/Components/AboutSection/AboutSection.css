@@ -31,7 +31,7 @@
 
 .about-image {
   flex: 1 1 300px;
-  background-image: url('../Images/ChatGPT Image 15 jun 2025, 18_44_31.png'); /* cambia esta ruta */
+  background-image: url('../../../public//Images//ChatGPT\ Image\ 15\ jun\ 2025\,\ 18_44_31.png'); 
   background-size: cover;
   background-position: center;
   height: 300px;

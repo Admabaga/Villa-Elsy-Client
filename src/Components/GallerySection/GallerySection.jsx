@@ -5,7 +5,7 @@ import './GalleryModal.css';
 const GallerySection = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
-const basePath = "/src/Components/Images";
+const basePath = "/Images";
 const excludeIndices = [8, 21, 24, 25]; 
 
 const imageNames = Array.from({ length: 25 }, (_, i) => {

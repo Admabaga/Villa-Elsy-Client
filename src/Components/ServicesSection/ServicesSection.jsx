@@ -5,7 +5,7 @@ const services = [
   {
     title: "Alojamiento Sostenible",
     description: "Cabañas ecológicas confortables y conectadas con la naturaleza.",
-    icon: "/src/Components/Images/Alojamientos.png",
+    icon: "/Images/Alojamientos.png",
     details: (
       <ul>
         <li><strong>Día de sol:</strong> $40.000 COP por persona</li>
@@ -18,7 +18,7 @@ const services = [
   {
     title: "Piscinas Naturales",
     description: "Piscinas con agua de manantial, perfectas para relajarte.",
-    icon: "/src/Components/Images/Piscina.png",
+    icon: "/Images/Piscina.png",
     details: (
       <ul>
         <li><strong>Adultos:</strong> $25.000 COP</li>
@@ -31,7 +31,7 @@ const services = [
   {
     title: "Gastronomía Consciente",
     description: "Comida orgánica local con un toque tradicional.",
-    icon: "/src/Components/Images/Gastronomia.png",
+    icon: "/Images/Gastronomia.png",
     details: (
       <ul>
         <li><strong>Desayuno:</strong> $15.000 COP</li>
@@ -44,7 +44,7 @@ const services = [
   {
     title: "Senderismo & Ecoturismo",
     description: "Recorridos guiados por senderos naturales, cascadas y miradores.",
-    icon: "/src/Components/Images/Senderismo.png",
+    icon: "/Images/Senderismo.png",
     details: (
       <ul>
         <li><strong>Duración:</strong> 1 a 3 horas</li>
@@ -56,7 +56,7 @@ const services = [
   {
     title: "Salón Social & Eventos",
     description: "Espacio natural para celebraciones, talleres y reuniones.",
-    icon: "/src/Components/Images/Eventos.png",
+    icon: "/Images/Eventos.png",
     details: (
       <ul>
         <li><strong>Capacidad:</strong> Hasta 100 personas</li>
@@ -68,7 +68,7 @@ const services = [
   {
     title: "Bienestar & Spa Natural",
     description: "Terapias de relajación con elementos naturales.",
-    icon: "/src/Components/Images/SPa.png",
+    icon: "/Images/SPa.png",
     details: (
       <ul>
         <li><strong>Masaje relajante:</strong> $60.000 COP (45 min)</li>
