@@ -11,7 +11,7 @@ const AboutSection = () => {
             </div>
 
             <div className="about-content">
-                <div className="about-image" />
+                <div className="about-image"  />
                 <div className="about-text">
                     <p>
                         En un mundo que corre sin pausa, nace un refugio que respira con la tierra.
