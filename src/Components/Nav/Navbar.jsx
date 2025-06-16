@@ -29,7 +29,7 @@ const Navbar = () => {
                 <li><a href="#services" onClick={closeMenu}>Nuestros Servicios</a></li>
                 <li><a href="#maps" onClick={closeMenu}>Encuentranos</a></li>
                 <li><a href="#gallery" onClick={closeMenu}>Galería</a></li>
-                <li><a href="#contact" onClick={closeMenu}>Contacto</a></li>
+                <li><a href="#contact" onClick={closeMenu}>Contactanos</a></li>
             </ul>
         </nav>
     );
