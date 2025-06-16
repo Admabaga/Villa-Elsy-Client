@@ -101,7 +101,6 @@ const ServicesSection = () => {
           </div>
         ))}
       </div>
-
       {selected && (
         <div className="modal-overlay" onClick={() => setSelected(null)}>
           <div className="modal-content animated" onClick={(e) => e.stopPropagation()}>

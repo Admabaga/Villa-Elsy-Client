@@ -5,6 +5,9 @@ import AboutSection from './Components/AboutSection/AboutSection'
 import GallerySection from './Components/GallerySection/GallerySection'
 import ContactSection from './Components/ContactSection/ContactSection'
 import ServicesSection from './Components/ServicesSection/ServicesSection'
+import MapSection from './Components/MapSection/MapSection'
+
+
 
 function App() {
 
@@ -15,6 +18,7 @@ function App() {
       <AboutSection />
       <ServicesSection/>
       <GallerySection />
+      <MapSection />
       <ContactSection />
       <Footer />
     </>

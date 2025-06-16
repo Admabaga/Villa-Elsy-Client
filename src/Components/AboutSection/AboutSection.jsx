@@ -7,7 +7,7 @@ const AboutSection = () => {
         <section id="about" className="about-section">
             <div className="about-header">
                 <h2>Conecta con la Naturaleza</h2>
-                <p>Descubre el alma de <strong>EcoHotel Raíces Vivas</strong></p>
+                <p>Descubre el alma de <strong>EcoHotel Paraíso entre montañas: Villa elsy.</strong></p>
             </div>
 
             <div className="about-content">

@@ -1,10 +1,11 @@
-/* Reset básico */
+/* === RESET BÁSICO === */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* === NAVBAR === */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -19,19 +20,22 @@
     font-family: 'Segoe UI', sans-serif;
 }
 
-.navbar-logo {
-  text-decoration: none;       
-  color: #e0f2f1;                  
-  font-size: 1.6rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  transition: color 0.3s ease;
+/* === LOGO IMAGEN === */
+.navbar-logo-img {
+    height: 54px;
+    width: 100%;
+    filter: brightness(2.0) !important;
+    object-fit: contain;
+    image-rendering: auto;
+    display: block;
+    transition: transform 0.3s ease;
 }
 
-.navbar-logo:hover {
-  color: #e0f2f1;                 
+.navbar-logo-img:hover {
+    transform: scale(1.05);
 }
 
+/* === MENU ICONO (HAMBURGUESA) === */
 .menu-icon {
     display: none;
     font-size: 1.8rem;
@@ -39,7 +43,7 @@
     color: #e0f2f1;
 }
 
-/* Menú en escritorio */
+/* === LINKS EN DESKTOP === */
 .navbar-links {
     list-style: none;
     display: flex;
@@ -75,10 +79,12 @@
     color: #a5f3fc;
 }
 
+/* === RESPONSIVE === */
 @media (max-width: 768px) {
     .menu-icon {
         display: block;
     }
+
     .navbar-links {
         position: absolute;
         top: 70px;
