@@ -15,7 +15,7 @@ const AboutSection = () => {
                 <div className="about-text">
                     <p>
                         En un mundo que corre sin pausa, nace un refugio que respira con la tierra.
-                        EcoHotel Raíces Vivas no es solo un lugar para descansar, es un lugar para renacer.
+                        Paraíso entre montañas: Villa Elcy no es solo un lugar para descansar, es un lugar para renacer.
                         Nos rodea la naturaleza, nos impulsa la sostenibilidad y nos mueve el bienestar de quienes nos visitan.
                     </p>
                     <p>
